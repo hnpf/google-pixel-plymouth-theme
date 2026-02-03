@@ -38,7 +38,8 @@ A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs
   - Edit `gemini-pixel.script`
   - Change `progress += 1` to `progress += 4`
 </details>
-## [![Star History Chart](https://api.star-history.com/svg?repos=hnpf/google-pixel-plymouth-theme&type=Date)](https://www.star-history.com/#hnpf/google-pixel-plymouth-theme&Date)
+## 
+[![Star History Chart](https://api.star-history.com/svg?repos=hnpf/google-pixel-plymouth-theme&type=Date)](https://www.star-history.com/#hnpf/google-pixel-plymouth-theme&Date)
 
 ## LICENSE
 This project uses the MIT License. Upload, share, modify as you want.
