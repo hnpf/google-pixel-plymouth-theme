@@ -1,38 +1,47 @@
 # Google Pixel Plymouth Theme
-A high-quality, pixel-accurate Gemini boot animation for Linux. 
-Optimized for fast-booting systems (Arch/CachyOS).
 
-## Description
-This theme uses the Gemini "G" animation frames used in modern Google Pixels. Since modern PCs boot 
-too fast for the full 190-frame sequence, this script includes 
-logic to speed up playback and hold the final frame.. Yeah, it sucks to have a fast pc now.
+![license](https://img.shields.io/badge/license-MIT-pink) ![version](https://img.shields.io/badge/version-1.0.0-f8bbd0)
 
-## INSTALLATION
-Remember, install.sh does most of this already. but please do step 3.
+A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs where Plymouth usually fails to keep up.
 
-1. Copy the theme folder:
-   sudo cp -r gemini-pixel /usr/share/plymouth/themes/
+> Please note!!: Current build is optimized for 1920x1080 displays and high-refresh rates.
+## Quick links
+- 📦 [Releases](https://github.com/hnpf/google-pixel-plymouth-theme/releases)
+- 🛠️ [Issues](https://github.com/hnpf/google-pixel-plymouth-theme/issues)
 
-2. Set the theme:
-   sudo plymouth-set-default-theme -R gemini-pixel
+## Widgets / Stats
+<img align="left" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=hnpf&show_icons=true&theme=rose_pine" />
 
-3. Update initramfs (Arch):
-   Make sure `sd-plymouth` (optional) and `kms` are in your HOOKS in /etc/mkinitcpio.conf.
-   run: sudo mkinitcpio -P
+<br clear="left"/>
 
-## Optional performance tweaks
+## Info Tags
+| Tag | Meaning |
+|---:|:--|
+| X | 190 frames |
+| X | Cross-distro installer |
+| ! | Ultra-fast boot cutoffs |
 
-If the animation is too slow or cuts off:
-- Edit `gemini-pixel.script`
-- Find `progress += 1`
-- Change it to `progress += 2` or `+ 4` for faster booting systems.
+## Demo / Screenshots
+![screenshot](./gemini-pixel/demoframe.png)
 
-To hide your boot text (for a polished and cleaner look..):
-Add `quiet splash loglevel=3 vt.global_cursor_default=0` to your GRUB cmdline.
+## Collapsible details
+<details>
+  <summary>Click to expand: Installation</summary>
 
-## Credits
-- animation: google pixel 9 / gemini
-- author: VIREX (hnpf)
+  ```bash
+  git clone [https://github.com/hnpf/google-pixel-plymouth-theme.git](https://github.com/hnpf/google-pixel-plymouth-theme.git)
+  cd google-pixel-plymouth-theme
+  sudo bash install.sh
+   ```
+</details>
+
+<details>
+  <summary>Click to expand: Manual Tweaks</summary>
+
+  If the animation is too slow for your i5-14600k:
+  - Edit `gemini-pixel.script`
+  - Change `progress += 1` to `progress += 4`
+</details>
 
 ## LICENSE
-Project uses the MIT License. Upload, share, modify as you please.
+This project uses the MIT License. Upload, share, modify as you want.
