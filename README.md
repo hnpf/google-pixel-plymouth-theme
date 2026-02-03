@@ -10,7 +10,8 @@ A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs
 - 🛠️ [Issues](https://github.com/hnpf/google-pixel-plymouth-theme/issues)
 
 ## Widgets / Stats
-[![Star History Chart](https://api.star-history.com/svg?repos=Significant-Gravitas/AutoGPT,madushadhanushka/github-readme&type=Date)](https://www.star-history.com/#Significant-Gravitas/AutoGPT&madushadhanushka/github-readme&Date)
+<img src="https://img.shields.io/github/stars/hnpf?label=Stars" alt="stars">
+<img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/hnpf?color=236ad3&style=for-the-badge&logo=github&label=Follow"/>
 
 ## Info Tags
 | Tag | Meaning |
@@ -40,6 +41,7 @@ A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs
   - Edit `gemini-pixel.script`
   - Change `progress += 1` to `progress += 4`
 </details>
+[![Star History Chart](https://api.star-history.com/svg?repos=Significant-Gravitas/AutoGPT,madushadhanushka/github-readme&type=Date)](https://www.star-history.com/#Significant-Gravitas/AutoGPT&madushadhanushka/github-readme&Date)
 
 ## LICENSE
 This project uses the MIT License. Upload, share, modify as you want.
