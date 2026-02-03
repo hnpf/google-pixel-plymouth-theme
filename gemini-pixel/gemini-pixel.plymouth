@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Gemini Pixel
+Description=Ripped Pixel 9 Gemini boot animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/gemini-pixel
+ScriptFile=/usr/share/plymouth/themes/gemini-pixel/gemini-pixel.script

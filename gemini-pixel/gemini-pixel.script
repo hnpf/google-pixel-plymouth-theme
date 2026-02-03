@@ -1,0 +1,35 @@
+// this should in practice load all 190 frames
+for (i = 1; i <= 190; i++) {
+    frame_num = i;
+    if (frame_num < 10) frame_str = "0000" + frame_num;
+    else if (frame_num < 100) frame_str = "000" + frame_num;
+    else frame_str = "00" + frame_num;
+    
+    anim_images[i] = Image("frame_" + frame_str + ".png");
+}
+
+anim_sprite = Sprite();
+
+// positioned at 0,0 because the python script handled the centering.
+anim_sprite.SetX(0);
+anim_sprite.SetY(0);
+
+progress = 0;
+
+fun refresh_callback () {
+    // we will skip 2 frames every tick
+    // this will hopefully play the whole 190-frame sequence in like ~0.8 seconds.
+    // its better than nothing.
+    // this should be a blur of beauty we hope
+    if (progress < 180) {
+        progress += 2; 
+        anim_sprite.SetImage(anim_images[progress]);
+    } 
+    // HOLD IT.
+    // we want this to sit on the final "G" or sparkle or whatever until GDM kicks in
+    else {
+        anim_sprite.SetImage(anim_images[190]);
+    }
+}
+  
+Plymouth.SetRefreshFunction (refresh_callback);
