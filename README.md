@@ -21,7 +21,7 @@ A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs
 | ! | Fast boot cutoffs |
 
 ## Demo / Screenshots
-![screenshot](./assets/demoframe.png)
+<img src="./assets/demoframe.png" width="600" alt="Boot">
 
 ## Collapsible details
 <details>
