@@ -10,9 +10,7 @@ A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs
 - 🛠️ [Issues](https://github.com/hnpf/google-pixel-plymouth-theme/issues)
 
 ## Widgets / Stats
-<img align="left" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=hnpf&show_icons=true&theme=rose_pine" />
-
-<br clear="left"/>
+[![Star History Chart](https://api.star-history.com/svg?repos=Significant-Gravitas/AutoGPT,madushadhanushka/github-readme&type=Date)](https://www.star-history.com/#Significant-Gravitas/AutoGPT&madushadhanushka/github-readme&Date)
 
 ## Info Tags
 | Tag | Meaning |
