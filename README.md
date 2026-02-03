@@ -1,4 +1,4 @@
-# google-pixel-plymouth-theme
+# Google Pixel Plymouth Theme
 A high-quality, pixel-accurate Gemini boot animation for Linux. 
 Optimized for fast-booting systems (Arch/CachyOS).
 
