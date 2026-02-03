@@ -18,8 +18,8 @@ A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs
 | Tag | Meaning |
 |---:|:--|
 | X | 190 frames |
-| X | Cross-distro installer |
-| ! | Ultra-fast boot cutoffs |
+| X | Cross distro installer |
+| ! | Fast boot cutoffs |
 
 ## Demo / Screenshots
 ![screenshot](./gemini-pixel/demoframe.png)
@@ -38,7 +38,7 @@ A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs
 <details>
   <summary>Click to expand: Manual Tweaks</summary>
 
-  If the animation is too slow for your i5-14600k:
+  If the animation is too slow:
   - Edit `gemini-pixel.script`
   - Change `progress += 1` to `progress += 4`
 </details>
