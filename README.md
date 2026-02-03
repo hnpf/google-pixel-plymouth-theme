@@ -29,7 +29,7 @@ A pixel-accurate Gemini boot animation for Linux, optimized for speed-demon rigs
   <summary>Click to expand: Installation</summary>
 
   ```bash
-  git clone [https://github.com/hnpf/google-pixel-plymouth-theme.git](https://github.com/hnpf/google-pixel-plymouth-theme.git)
+  git clone https://github.com/hnpf/google-pixel-plymouth-theme.git
   cd google-pixel-plymouth-theme
   sudo bash install.sh
    ```
